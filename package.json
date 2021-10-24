@@ -1,0 +1,12 @@
+{
+  "name": "pod-thrower",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Make a website and RSS feed for a podcast.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nat-418",
+  "license": "0BSD"
+}

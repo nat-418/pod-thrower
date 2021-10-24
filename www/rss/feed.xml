@@ -1,0 +1,87 @@
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://www.example.com/feed.xml"
+               rel="self"
+               type="application/rss+xml" />
+    <title>Example Podcast</title>
+    <link>https://www.example.com</link>
+    <description>Friends who love to chit-chat</description>
+    <managingEditor>mail@example.com</managingEditor>
+    <webMaster>mail@example.com</webMaster>
+    <language>en-us</language>
+    <copyright>
+      Copyright (C) 2021
+      Example, Inc.. All Rights Reserved.
+    </copyright>
+    <creativeCommons:license>
+      https://creativecommons.org/licenses/by-nc-nd/4.0/
+    </creativeCommons:license>
+    <pubDate>Sun, 24 Oct 2021 21:47:46 CEST</pubDate>
+    <lastBuildDate>Sun, 24 Oct 2021 21:47:46 CEST</lastBuildDate>
+    <image>
+      <url>https://www.example.com/images/coverart.jpg</url>
+      <title>{podcast.name}</title>
+      <link>https://www.example.com</link>
+    </image>
+    <docs>http://rssboard.org/rss-specification</docs>
+    <itunes:author>Example, Inc.</itunes:author>
+    <itunes:keywords>philosophy,religion,politics,culture,art,science</itunes:keywords>
+    <itunes:category text="category">
+      <itunes:category text="Philosophy" />
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://www.example.com/images/coverart.jpg" />
+    <itunes:owner>
+      <itunes:name><![CDATA[Example Podcast]]></itunes:name>
+      <itunes:email>mail@example.com</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>What we hate about podcasting</title>
+      <description>Things that really grind our gears.</description>
+      <guid isPermaLink="true">/episodes/02-things-we-hate-podcasting.mp3</guid>
+      <pubDate>Sat, 01 Jan 2009 12:00:00 EST</pubDate>
+      <media:content medium="audio"
+                     url="/episodes/02-things-we-hate-podcasting.mp3"
+                     type="audio/mpeg"
+                     isDefault="true"
+                     expression="full"
+                     duration="3130">
+        <media:title type="plain">What we hate about podcasting</media:title>
+        <media:description>Things that really grind our gears.</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://www.example.com/images/coverart.jpg" />
+        <media:keywords>philosophy,religion,politics,culture,art,science</media:keywords>
+      </media:content>
+      <enclosure url="/episodes/02-things-we-hate-podcasting.mp3" length="134135" type="audio/mpeg" />
+      <itunes:image href="https://www.example.com/images/coverart.jpg" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:52:10</itunes:duration>
+    </item>
+    <item>
+      <title>The First Episode</title>
+      <description>For out inagural show we discuss podcasts we like!</description>
+      <guid isPermaLink="true">/episodes/01-the-first-episode.mp3</guid>
+      <pubDate>Sat, 01 Jan 2009 12:00:00 EST</pubDate>
+      <media:content medium="audio"
+                     url="/episodes/01-the-first-episode.mp3"
+                     type="audio/mpeg"
+                     isDefault="true"
+                     expression="full"
+                     duration="2903">
+        <media:title type="plain">The First Episode</media:title>
+        <media:description>For out inagural show we discuss podcasts we like!</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:thumbnail url="https://www.example.com/images/coverart.jpg" />
+        <media:keywords>philosophy,religion,politics,culture,art,science</media:keywords>
+      </media:content>
+      <enclosure url="/episodes/01-the-first-episode.mp3" length="433333" type="audio/mpeg" />
+      <itunes:image href="https://www.example.com/images/coverart.jpg" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:48:23</itunes:duration>
+    </item>
+  </channel>
+</rss>

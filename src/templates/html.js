@@ -1,5 +1,5 @@
 export default podcast => {
-  const episodes = podcast.episodes.map(episode => {
+  const episodes = podcast.episodes.slice().reverse().map(episode => {
     return `
         <li class="episode">
           <h3 class="title">${episode.title}</h3>

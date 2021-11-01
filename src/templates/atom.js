@@ -65,13 +65,13 @@ export default podcast => {
     <lastBuildDate>${date} ${time}</lastBuildDate>
     <image>
       <url>${podcast.image}</url>
-      <title>{podcast.name}</title>
+      <title>${podcast.name}</title>
       <link>${podcast.homepageURL}</link>
     </image>
     <docs>http://rssboard.org/rss-specification</docs>
     <itunes:author>${podcast.legal}</itunes:author>
     <itunes:keywords>${podcast.keywords}</itunes:keywords>
-    <itunes:category text="category">
+    <itunes:category text="${podcast.category}">
       <itunes:category text="${podcast.subCategory}" />
     </itunes:category>
     <itunes:explicit>${podcast.explicit}</itunes:explicit>
